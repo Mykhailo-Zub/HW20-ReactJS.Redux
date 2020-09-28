@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+.post-wrapper {
+    background-color: #000000;
+    display: flex;
+    justify-content: flex-start;
+    width: 900px;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 15px auto;
+    color: #ffffff;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.post_avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.name-row {
+    margin-left: 10px;
+    display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.name {
+    margin-right: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.confirm,
+.more-arrow,
+.social-btns img {
+    width: 20px;
+    height: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nickname {
+    color: rgb(131, 124, 160);
+    margin: 0 10px;
+}
+
+.dot {
+    background-color: rgb(131, 124, 160);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    align-self: center;
+    margin-right: 10px;
+}
+
+.date {
+    color: rgb(131, 124, 160);
+}
+
+.more-arrow {
+    margin-left: auto;
+}
+
+.content {
+    margin: 5px 10px;
+    font-size: 20px;
+}
+
+.content-img img {
+    border-radius: 20px;
+    width: 100%;
+    max-width: 700px;
+}
+
+.social-btns {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.social-btns div {
+    display: flex;
+}
+
+.social-btns span {
+    margin-left: 5px;
+    font-size: 20px;
 }
